@@ -145,7 +145,8 @@ For support:
 
 ## Screenshots
 
-[Add screenshots of n8n workflow and ERPNext settings here]
+![image](https://github.com/user-attachments/assets/379327a6-acb9-4002-b686-55daa8fec620)
+
 
 ## Version History
 
