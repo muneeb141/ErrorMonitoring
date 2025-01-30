@@ -120,8 +120,7 @@ error_log.insert(ignore_permissions=True)
    - Verify webhook URL format
 
 3. **ERPNext errors:**
-   - Check system logs: `bench --site your_site_name show-log`
-   - Verify app is installed: `bench list-apps`
+   - Verify app is installed: `bench --site your_site_name list-apps`
 
 ## Contributing
 
@@ -145,7 +144,20 @@ For support:
 
 ## Screenshots
 
+
 ![image](https://github.com/user-attachments/assets/379327a6-acb9-4002-b686-55daa8fec620)
+
+![Screenshot 2025-01-30 151122](https://github.com/user-attachments/assets/0715b92c-eedd-41fc-a336-a04072525bec)
+
+![Screenshot 2025-01-30 151220](https://github.com/user-attachments/assets/c4dba80f-ed3b-4795-972f-28adcc1749ac)
+
+![Screenshot 2025-01-30 151309](https://github.com/user-attachments/assets/a5291097-3a15-4d22-ac7d-4a49d6e8aeda)
+
+![Screenshot 2025-01-30 151326](https://github.com/user-attachments/assets/5a876c4d-59e9-4c56-a5b4-f4abc3eaff66)
+
+![Screenshot 2025-01-30 151345](https://github.com/user-attachments/assets/540ec515-87ca-41bf-a635-dd9b348cd081)
+
+![Screenshot 2025-01-30 160119](https://github.com/user-attachments/assets/1dad259a-d2f9-4c71-86cb-f25604ac5d06)
 
 
 ## Version History
