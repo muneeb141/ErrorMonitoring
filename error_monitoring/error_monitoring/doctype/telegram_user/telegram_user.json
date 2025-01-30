@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-30 10:24:16.594153",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_xmzp"
+ ],
+"fields": [
+        {
+            "fieldname": "user_name",
+            "label": "User Name",
+            "fieldtype": "Data",
+            "reqd": 1
+        },
+        {
+            "fieldname": "chat_id",
+            "label": "Telegram Chat ID",
+            "fieldtype": "Data",
+            "reqd": 1
+        },
+        {
+            "fieldname": "is_active",
+            "label": "Active",
+            "fieldtype": "Check",
+            "default": 1
+        }
+    ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-30 10:24:16.594153",
+ "modified_by": "Administrator",
+ "module": "Error Monitoring",
+ "name": "Telegram User",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-29 23:43:16.260648",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_l3cw"
+ ],
+"fields": [
+        {
+            "fieldname": "n8n_webhook_url",
+            "label": "n8n Webhook URL",
+            "fieldtype": "Data",
+            "reqd": 1
+        },
+        {
+            "fieldname": "enabled",
+            "label": "Enable Monitoring",
+            "fieldtype": "Check",
+            "default": 1
+        },
+        {
+            "fieldname": "monitor_all_doctypes",
+            "label": "Monitor All DocTypes",
+            "fieldtype": "Check",
+            "default": 0
+        },
+        {
+            "fieldname": "section_break_1",
+            "fieldtype": "Section Break",
+            "label": "Telegram Users"
+        },
+        {
+            "fieldname": "telegram_users",
+            "label": "Telegram Users",
+            "fieldtype": "Table",
+            "options": "Telegram User"
+        },
+        {
+            "fieldname": "section_break_2",
+            "fieldtype": "Section Break",
+            "label": "Monitored DocTypes"
+        },
+        {
+            "fieldname": "monitored_doctypes",
+            "label": "Monitored DocTypes",
+            "fieldtype": "Table",
+            "options": "Monitored DocType"
+        }
+    ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-29 23:45:39.429158",
+ "modified_by": "Administrator",
+ "module": "Error Monitoring",
+ "name": "Error Monitor Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

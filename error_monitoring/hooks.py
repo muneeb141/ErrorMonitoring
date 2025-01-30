@@ -145,6 +145,13 @@ app_license = "mit"
 # 	}
 # }
 
+doc_events = {
+    "Error Log": {
+        "after_insert": "error_monitoring.webhooks.send_error_notification"
+    }
+}
+
+
 # Scheduled Tasks
 # ---------------
 
