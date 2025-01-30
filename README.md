@@ -141,7 +141,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 For support:
 - Open an issue on GitHub
-- Contact: [Your Contact Information]
+- Contact: muneebmohammed141@gmail.com
 
 ## Screenshots
 
